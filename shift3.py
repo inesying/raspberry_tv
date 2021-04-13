@@ -127,12 +127,6 @@ def loop():#loop renew
     while True:
         updateBFans()
         updateWeather()
-        if time.localtime().tm_min == 2:
-            updateWeather()
-        else:
-            f = open('weatherData.log')
-            txt = f.read()
-            f.close()
         time.sleep(60)
 
 def getmotion():#key change
