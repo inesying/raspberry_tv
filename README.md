@@ -5,6 +5,8 @@
 
 ## shift.py
 
+![image](https://github.com/inesying/raspberry_tv/blob/main/rasp_tv.gif)
+
 实现三种功能的切换
 
 功能一：显示李子柒b站粉丝数和粉丝数变化
