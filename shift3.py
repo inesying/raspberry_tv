@@ -249,7 +249,7 @@ if __name__ == '__main__':
             draw.text((90, 150), u'温度: %s'%nowtemp, font=newfont, fill="#ff00ff")
             draw.text((110, 186), u'多云', font=newfont,fill="#ffff00")
 
-            iconpath="icon-main/64/{}.png".format(icon)
+            iconpath="icon/{}.png".format(icon)
             btv = Image.open(iconpath)
             btv = btv.resize((90, 90))
             image1.paste(btv, box=(100,50))
